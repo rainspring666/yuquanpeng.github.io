@@ -4,6 +4,72 @@
   
     
     <entry>
+      <title><![CDATA[课程总结]]></title>
+      <url>http://yoursite.com/2016/10/01/%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于静态博客搭建]]></title>
+      <url>http://yoursite.com/2016/10/01/%E5%85%B3%E4%BA%8E%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      <content type="html"><![CDATA[<h1 id="一、Hexo简介"><a href="#一、Hexo简介" class="headerlink" title="一、Hexo简介"></a>一、Hexo简介</h1><p>尚未添加内容</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[测试]]></title>
+      <url>http://yoursite.com/2016/10/01/%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p><strong>加粗</strong><br><em>斜体</em></p>
+<blockquote>
+<p>我爱吃随爱UI爱UC博爱火车偶爱贺词<br>安保从头派出所</p>
+<blockquote>
+<p>cbaiuba9scibcs iausbc</p>
+</blockquote>
+<h2 id="这是一个标题。"><a href="#这是一个标题。" class="headerlink" title="这是一个标题。"></a>这是一个标题。</h2><ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
+<p>给出一些例子代码：</p>
+<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre></blockquote>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,<br>viverra nec, fringilla in, laoreet vitae, risus.</li>
+<li><p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.<br>Suspendisse id sem consectetuer libero luctus adipiscing.</p>
+<ol>
+<li>This is a list item with two paragraphs. Lorem ipsum dolor<br>sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>mi posuere lectus.</li>
+</ol>
+<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>sit amet velit.</p>
+</li>
+</ul>
+<ol>
+<li>Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+</ol>
+<ul>
+<li><p>A list item with a blockquote:</p>
+<blockquote>
+<p>This is a blockquote<br>inside a list ite</p>
+</blockquote>
+</li>
+</ul>
+<pre><code>* * *
+</code></pre><hr>
+<hr>
+<hr>
+<hr>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[来自玉碎的问候]]></title>
       <url>http://yoursite.com/2016/09/27/%E6%9D%A5%E8%87%AA%E7%8E%89%E7%A2%8E%E7%9A%84%E9%97%AE%E5%80%99/</url>
       <content type="html"></content>
