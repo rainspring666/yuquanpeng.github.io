@@ -2,10 +2,8 @@
 
 
 
-  
 
-
-<html class="theme-next pisces use-motion">
+<html class="theme-next pisces">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -68,7 +66,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="C++,C,JAVA" />
 
 
 
@@ -77,23 +75,23 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.0.1" />
 
 
 
 
 
 
-<meta name="description" content="日志 | 标签 | 分类">
+<meta name="description" content="来自玉碎的问候">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
 <meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="玉碎のBlog">
-<meta property="og:description" content="日志 | 标签 | 分类">
+<meta property="og:description" content="来自玉碎的问候">
 <meta property="og:updated_time" content="2016-09-30T16:44:11.754Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="about">
-<meta name="twitter:description" content="日志 | 标签 | 分类">
+<meta name="twitter:description" content="来自玉碎的问候">
 
 
 
@@ -103,7 +101,7 @@
     scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
-    motion: true,
+    motion: false,
     duoshuo: {
       userId: 0,
       author: '博主'
@@ -111,18 +109,13 @@
   };
 </script>
 
-
-
-
-  <link rel="canonical" href="http://yoursite.com/about/"/>
-
   <title>
   
 
   
     about | 玉碎のBlog
   
-</title>
+ - 来自玉碎的问候 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,6 +126,12 @@
 
 
 
+
+
+
+  <div style="display: none;">
+    <script src="http://s6.cnzz.com/stat.php?id=1259784696&web_id=1259784696" type="text/javascript"></script>
+  </div>
 
 
 
@@ -157,11 +156,11 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">———— 不忘初心，方得始终 ————</p>
+  <p class="site-subtitle" id="site-subtitle">———— 不忘初心，方得始终 ————</p>
 </div>
 
 <div class="site-nav-toggle">
-  <button>
+  <button onclick="showSubtitle()">
     <span class="btn-bar"></span>
     <span class="btn-bar"></span>
     <span class="btn-bar"></span>
@@ -176,7 +175,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/home" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -195,20 +194,10 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-calendar-check-o"></i> <br />
             
             归档
           </a>
@@ -224,11 +213,31 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-mind">
+          <a href="/mind" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />
+            
+            menu.mind
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
           
-            <a href="javascript:;" class="popup-trigger">
+            <a href="#" class="popup-trigger">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -244,7 +253,7 @@
     <div class="site-search">
       
   <div class="popup">
- <span class="search-icon fa fa-search"></span>
+
  <input type="text" id="local-search-input">
  <div id="local-search-result"></div>
  <span class="popup-btn-close">close</span>
@@ -255,11 +264,7 @@
   
 </nav>
 
-<button onclick="showSubtitle()">
-  <span class="btn-bar"></span>
-  <span class="btn-bar"></span>
-  <span class="btn-bar"></span>
-</button> </div>
+ </div>
     </header>
 
     <main id="main" class="main">
@@ -307,7 +312,7 @@
                src="/images/mmexport1470402987643.jpg"
                alt="玉碎" />
           <p class="site-author-name" itemprop="name">玉碎</p>
-          <p class="site-description motion-element" itemprop="description">日志 | 标签 | 分类</p>
+          <p class="site-description motion-element" itemprop="description">来自玉碎的问候</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -340,7 +345,7 @@
               <span class="links-of-author-item">
                 <a href="http://weibo.com/5723679738" target="_blank" title="Weibo">
                   
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-weibo"></i>
                   
                   Weibo
                 </a>
@@ -377,15 +382,20 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">玉碎</span>
+  
+   <span style="margin-left:8px;">
+   <script src="http://s6.cnzz.com/stat.php?id=1259784696&web_id=1259784696" type="text/javascript"></script>
+   </span>
+  
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" href="http://hexo.io" target="_blank">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" target="_blank">
     NexT.Pisces
   </a>
 </div>
@@ -476,8 +486,6 @@
 
 
 
-
-  
   
   <script type="text/javascript">
     // Popup Window;
@@ -517,7 +525,7 @@
             var $resultContent = document.getElementById(content_id);
             $input.addEventListener('input', function(){
                 var matchcounts = 0;
-                var str='<ul class=\"search-result-list\">';
+                var str='<ul class=\"search-result-list\">';                
                 var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
                 $resultContent.innerHTML = "";
                 if (this.value.trim().length > 1) {
@@ -572,7 +580,7 @@
                                 var regS = new RegExp(keyword, "gi");
                                 match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
                             });
-
+                            
                             str += "<p class=\"search-result\">" + match_content +"...</p>"
                         }
                         str += "</li>";
@@ -588,7 +596,7 @@
     });}
 
     // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
+    $('.popup-trigger').mousedown(function(e) {
       e.stopPropagation();
       if (isfetched == false) {
         searchFunc(path, 'local-search-input', 'local-search-result');
@@ -608,13 +616,36 @@
     });
   </script>
 
-
   
 
   
 
   
-  </script>
+
+  <div style="display: none;">
+    <script src="http://s6.cnzz.com/stat.php?id=1259784696&web_id=1259784696" type="text/javascript"></script>
+  </div>
+
+
+
+  
+<script type="text/javascript" async src="//push.zhanzhang.baidu.com/push.js">
+</script>
+
+  <script type="text/JavaScript">
+function hideElement(elementID)
+{
+	var myele=document.getElementById(elementID);
+	myele.style.display="none";
+}
+
+function showElement(elementID)
+{
+	var myele=document.getElementById(elementID);
+	myele.style.display="block";
+}
+</script>
+
 <script type="text/JavaScript">
 function showSubtitle()
 {
@@ -631,6 +662,6 @@ function showSubtitle()
 
 }
 </script>
-  <script type="text/javascript" src="/js/src/particle.js"></script>
+
 </body>
 </html>
